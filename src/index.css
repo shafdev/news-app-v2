@@ -109,7 +109,13 @@ a:hover {
   .titlea{
     text-decoration: none;
     color: #333;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
+    /* font-weight: ; */
+  }
+  .para{
+    font-size: 0.85rem;
+    /* font-family:  'News Cycle', sans-serif; */
+    /* font-family:  'Noto Sans', sans-serif; */
   }
   .source-url{
     text-decoration: none;
@@ -120,7 +126,15 @@ a:hover {
     margin: 0rem;
   
   }
-  
+  hr{
+    width: 50%;
+  }
+  .newsframe{
+    /* background-color: aqua; */
+    margin-top: 1rem;
+    margin-bottom: 2.4rem;
+    /* padding-top: 1rem; */
+  }
 .source{
   font-size: .8rem;
 }

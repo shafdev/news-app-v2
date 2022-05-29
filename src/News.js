@@ -81,7 +81,7 @@ function News(){
         </form>
             <div className='news'>
             {news.map((item) =>{
-                return(<div key={item.url}>
+                return(<div key={item.url} className='newsframe'>
                          <NewsFrame  news = {item}/>
                     </div>
                 )

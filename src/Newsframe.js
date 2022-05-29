@@ -21,18 +21,18 @@ function NewsFrame(props){
             <a href={url} className='titlea'>  
             <h2>{title}</h2>
             </a>
-            <p>
+            <p className="para">
              {readMore ?  description  :   description ? description.substring(0,100) :'' }
 
                 { description? description.length > 100 ? 
                     <button onClick={handledescription} className='read-btn'>
-                            {readMore ? 'less' : 'Read More'}
+                            {readMore ? 'less' : 'read more'}
                     </button>
                 : ' . . . ':''}
+            
             </p>
-
             <a href={url} className="source-url">
-            <p className="source">Source: {url.split('/')[2]}</p>
+            <p className="source">source: {url.split('/')[2]}</p>
             </a>      
 
             <p className="author">{author}</p>
