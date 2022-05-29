@@ -1,0 +1,142 @@
+body{
+  margin: 0;
+  font-family: 'News Cycle', sans-serif;
+  /* font-family: 'Noto Sans', sans-serif; */
+}
+
+
+article{
+  width: 70vw;
+  /* background-color: blueviolet; */
+  display: flex;
+  margin: 1rem;
+  gap: 10px;
+}
+
+
+h2,p{
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.news_content{
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  
+}
+
+.news_img{
+  width: 40%;
+  object-fit: contain;
+  /* background-color: rgb(17, 0, 255); */
+}
+
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  
+}
+
+.news{
+  margin: 1.3rem;
+}
+.titlea{
+  text-decoration: none;
+  color: black;
+  font-size: 0.9rem;
+}
+a:hover {
+  color: rgb(110, 118, 194);
+}
+
+
+.read-btn{
+  background: transparent;
+  border-color: transparent;
+  color:rgb(51, 89, 128);
+  font-weight: 600;
+}
+
+.read-btn:hover{
+  color: rgb(110, 118, 194);
+}
+
+.select {                 
+
+  border: 1px solid  rgb(110, 118, 194);
+  /* border: 1px solid  rgb(173, 106, 17); */
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 0.6rem;
+}
+
+
+.click-btn{
+  border-radius: 1rem;
+  background: rgb(110, 118, 194);
+  /* background: rgb(75, 185, 47); */
+  border: 1px solid rgb(110, 118, 194);
+  color: rgb(255, 255, 255);
+}
+.click-btn:hover{
+  background: rgb(152, 158, 211);
+  /* color: rgb(37, 32, 32); */
+}
+.source-url{
+  text-decoration: none;
+  color: rgb(71, 72, 85);
+}
+.author{
+  font-size: .8rem;
+}
+@media screen and (max-width: 720px) {
+  
+  article{
+    width: 100vw;
+    display: flex;
+    margin: 0rem;
+    flex-direction: column;
+
+  }
+  .titlea{
+    text-decoration: none;
+    color: black;
+    font-size: 0.8rem;
+  }
+  .source-url{
+    text-decoration: none;
+    color: rgb(110, 118, 194);
+  }
+  .news_content{
+    width: 100vw;
+    margin: 0rem;
+  
+  }
+  
+.source{
+  font-size: .8rem;
+}
+.author{
+  display: none;
+}
+  .news_img{
+    width: 100%;
+    object-fit: contain;
+
+  }
+
+
+
+  h2,p{
+    text-align: left;
+  }
+  
+}
